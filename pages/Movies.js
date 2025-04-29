@@ -18,21 +18,21 @@ export default function Movies() {
                 <View style={styles.cardBox}>
                     <View style={styles.card}>
                         <Image
-                            source={{ uri: "https://cursinhoparamedicina.com.br/wp-content/uploads/2022/10/Paisagem-1.jpg" }}
+                            source={{ uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQeiLKf_2xTQ198RP2nGY-mQC8Mb1Pr1AWJA&s" }}
                             style={styles.cardImage}
                         />
                     </View>
-                    <Text style={styles.cardText}>Paisagem 1</Text>
+                    <Text style={styles.cardText}>Filme Carros</Text>
                 </View>
 
                 <View style={styles.cardBox}>
                     <View style={styles.card}>
                         <Image
-                            source={{ uri: "https://static.preparaenem.com/2024/04/2-paisagem-nos-alpes.jpg" }}
+                            source={{ uri: "https://br.web.img2.acsta.net/c_300_300/medias/nmedia/18/87/34/17/19921605.jpg" }}
                             style={styles.cardImage}
                         />
                     </View>
-                    <Text style={styles.cardText}>Paisagem 2</Text>
+                    <Text style={styles.cardText}>Velozes e Furiosos</Text>
                 </View>
             </View>
 
@@ -40,21 +40,21 @@ export default function Movies() {
                 <View style={styles.miniCardRow}>
                 <View style={styles.miniCards}>
                     <Image 
-                        source={{ uri: "https://wallpapers.com/images/hd/landscape-pictures-a3hr6gk3xfx36dyg.jpg"}}
+                        source={{ uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhdjbPxBz1aCl8ibLdoE6XtAfc8PFxHXF0VQ&s"}}
                         style={styles.miniCardImage}
                     />
                 </View>
-                    <Text style={styles.miniCardText}>Texto ao lado do Mini Card</Text>
+                    <Text style={styles.miniCardText}>Need for Speed</Text>
                 </View>
 
                 <View style={styles.miniCardRow}>
                 <View style={styles.miniCards}>
                     <Image 
-                        source={{ uri: "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/10/thinkstock-scandinavian-summer-landscape-sweden.jpeg?quality=70&strip=info&w=922&w=636"}}
+                        source={{ uri: "https://play-lh.googleusercontent.com/5tYRNp_5XCK4IBAtsGeuj2VBAyXadumbTM2mSeQbLVhUmEh0--Y8Qr1R4CvukpZo6Y0q"}}
                         style={styles.miniCardImage}
                     />
                     </View>
-                        <Text style={styles.miniCardText}>Texto ao lado do Mini Card </Text>
+                        <Text style={styles.miniCardText}>Drive </Text>
                     </View>
                 </View>
 
@@ -157,6 +157,8 @@ const styles = StyleSheet.create({
         color: "#333",
         textAlign: "center",
         width: "100%",
+        textAlign: "left",
+        marginLeft: 20,
     },
     boxView: {
         height: 40,
